@@ -1,4 +1,9 @@
 # Тестирование веб-приложений  
 - [Тест-план для приложения "Интернет-магазин"](https://docs.google.com/spreadsheets/d/13DnaNr48VEa2RkoMOi1juutFa2mJ3rn56wq6tTIHbH4/edit#gid=0)  
 - [Чек-лист](https://docs.google.com/spreadsheets/d/1cmIVwbhAG9cf0oeXdu-CEouJTzV6LoOelh1mJLYl8V0/edit#gid=0)
-- [Тест-кейсы в системе QASE](https://app.qase.io/project/G7?author=214&previewMode=side&suite=166). Экспортированные из QASE тест-кейсы [в формате PDF](https://github.com/ToriMazhar/web/blob/main/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B_QASE.pdf)  
+- [Тест-кейсы в системе QASE](https://app.qase.io/project/G7?author=214&previewMode=side&suite=166). Экспортированные из QASE тест-кейсы [в формате PDF](https://github.com/ToriMazhar/web/blob/main/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B_QASE.pdf)
+
+В рамках задания по перехвату и изменению трафика скачан Charles Proxy и настроен для компьютера.  Были повторены различные тестовые сценарии для приложения ["Интернет-магазин"](https://demoshopping.ru/) и записано [видео](https://drive.google.com/file/d/1rSVv4dXCM6zHanlKKVh7ccE98ADMyfSy/view?usp=sharing) по следующим задачам:  
+* Вам необходимо изменить количество товаров в корзине. Например, в запросе отправляется "2 товара", а вы должны вернуть "500";
+* Смоделируйте ситуацию, при которой при обращении к приложению сервер вернет статус-код 403. Помните, что запросы к другим ресурсам должны работать в штатном режиме;
+* Иногда в работе тестировщика необходимо перебрасывать запросы с одного окружения на другой. Например, мы не можем проводить прямое тестирование на проде, а должны стучаться к окружению для тестирования. Предположим, что https://demoshopping.ru это продовская версия, а https://qa.demoshopping.ru это QA стенд. Ваша задача перенаправить запрос с Prod на QA.  
