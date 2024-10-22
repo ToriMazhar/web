@@ -2,6 +2,7 @@
 - [Тест-план для приложения "Интернет-магазин"](https://docs.google.com/spreadsheets/d/13DnaNr48VEa2RkoMOi1juutFa2mJ3rn56wq6tTIHbH4/edit#gid=0)  
 - [Чек-лист](https://docs.google.com/spreadsheets/d/1cmIVwbhAG9cf0oeXdu-CEouJTzV6LoOelh1mJLYl8V0/edit#gid=0)
 - [Тест-кейсы в системе QASE](https://app.qase.io/project/G7?author=214&previewMode=side&suite=166). Экспортированные из QASE тест-кейсы [в формате PDF](https://github.com/ToriMazhar/web/blob/main/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B_QASE.pdf)
+- [Отчеты о дефектах](https://github.com/ToriMazhar/web/blob/main/13_%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%8B%20%D0%BE%20%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D0%B0%D1%85_%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0_%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2.xlsx) по результатам тестирования модулей корзины, оплаты и оформления заказов. Запуск тест-кейсов, осуществлялся через Test Run в QASE ([тестовый прогон](https://github.com/ToriMazhar/web/blob/main/G8_Express_run_2024_10_22.pdf)).  
 
 В рамках задания по перехвату и изменению трафика скачан Charles Proxy и настроен для компьютера.  Были повторены различные тестовые сценарии для приложения ["Интернет-магазин"](https://demoshopping.ru/) и записано [видео](https://drive.google.com/file/d/1rSVv4dXCM6zHanlKKVh7ccE98ADMyfSy/view?usp=sharing) по следующим задачам:  
 * Вам необходимо изменить количество товаров в корзине. Например, в запросе отправляется "2 товара", а вы должны вернуть "500";
